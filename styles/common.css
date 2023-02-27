@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: var(--purple-gray);
 }
 
 p, h2, h3, h4, h5, h6 {
