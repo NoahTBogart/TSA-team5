@@ -1,5 +1,14 @@
+body {
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
 .welcome-section {
-    background-color:  #272529;
+    background-color:var(--purple-gray);
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -8,7 +17,7 @@
 }
 
 .about-text {
-    color: #ecece0;
+    color: var(--off-white);
     margin: 0px 10%;
 }
 
@@ -16,7 +25,7 @@
     letter-spacing: 3px;
     margin: auto;
     text-align: center;
-    color: #f0eeb1;
+    color: var(--yellow);
 
 }
 
