@@ -1,7 +1,7 @@
 .hero-section {
-    background-image: url(../media/5.png);
+    background-image: url(../media/team5/5.jpg);
     padding: 100px;
-    height: 300px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,15 +10,16 @@
 
 .hero-section > .top-heading {
     padding: 1px 20px;
-    background-color: #11122B;
-    color: #cbcbcb;
+    background-color: #3c3347;
+    color:  #d4d4d0;
     width: 290px;
     border-radius: 2px;
+    font-family: 'Space Mono', monospace;
 }
 
 .hero-section > .bottom-heading {
-    background-color: #CEA135;
-    color: #11122B;
+    background-color: #17143b;
+    color: #f0eeb1;
     padding: 1px 20px;
     margin-top: 15px;
     width: 107px;
