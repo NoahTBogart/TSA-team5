@@ -1,5 +1,4 @@
 body {
-    margin: 0px;
     --yellow: #f0eeb1;
     --yellow-white: #eeedd2;
     --off-white: #ecece0;
@@ -35,4 +34,5 @@ body {
     margin-top: 15px;
     width: 107px;
     border-radius: 2px;
+    font-family: 'Golos Text', sans-serif;;
 }
