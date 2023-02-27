@@ -29,10 +29,10 @@ body {
 
 .hero-section > .bottom-heading {
     background-color: var(--cobalt-blue);
-    color: var(--off-white);
+    color: var(--yellow-white);
     padding: 1px 20px;
     margin-top: 15px;
     width: 107px;
     border-radius: 2px;
-    font-family: 'Golos Text', sans-serif;;
+    font-family: 'Golos Text', sans-serif;
 }
