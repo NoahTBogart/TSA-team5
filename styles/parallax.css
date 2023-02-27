@@ -1,3 +1,14 @@
+body {
+    margin: 0px;
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
+
 .hero-section {
     background-image: url(../media/team5/5.jpg);
     padding: 100px;
@@ -10,16 +21,16 @@
 
 .hero-section > .top-heading {
     padding: 1px 20px;
-    background-color: #3c3347;
-    color:  #d4d4d0;
+    background-color: var(--desaturated-purple);
+    color:  var(--yellow-white);
     width: 290px;
     border-radius: 2px;
     font-family: 'Space Mono', monospace;
 }
 
 .hero-section > .bottom-heading {
-    background-color: #17143b;
-    color: #f0eeb1;
+    background-color: var(--cobalt-blue);
+    color: var(--off-white);
     padding: 1px 20px;
     margin-top: 15px;
     width: 107px;
