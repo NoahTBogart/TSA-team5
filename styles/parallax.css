@@ -10,7 +10,8 @@ body {
 
 .hero-section {
     background-image: url(../media/team5/5.jpg);
-    padding: 100px;
+    padding: 200px;
+    padding-top: 0px;
     height: 500px;
     margin: 0px;
     background-attachment: fixed;
