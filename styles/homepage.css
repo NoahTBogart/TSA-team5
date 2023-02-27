@@ -1,0 +1,22 @@
+.welcome-section {
+    background-color:  #272529;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-text {
+    color: #ecece0;
+    margin: 0px 10%;
+}
+
+.about-text > h1 {
+    letter-spacing: 3px;
+    margin: auto;
+    text-align: center;
+    color: #f0eeb1;
+
+}
+
