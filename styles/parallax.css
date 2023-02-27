@@ -1,3 +1,13 @@
+body {
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
+
 .hero-section {
     background-image: url(../media/team5/5.jpg);
     padding: 100px;
@@ -24,4 +34,5 @@
     margin-top: 15px;
     width: 107px;
     border-radius: 2px;
+    font-family: 'Golos Text', sans-serif;;
 }
