@@ -12,6 +12,7 @@ body {
     background-image: url(../media/team5/5.jpg);
     padding: 100px;
     height: 500px;
+    margin: 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

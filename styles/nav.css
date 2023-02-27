@@ -6,3 +6,8 @@ body{
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
 }
+
+.nav-wrapper {
+    padding: 2%;
+    margin: 0px;
+}
