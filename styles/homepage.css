@@ -19,6 +19,7 @@ body {
 .about-text {
     color: var(--off-white);
     margin: 0px 10%;
+    text-align: center;
 }
 
 .about-text > h1 {
