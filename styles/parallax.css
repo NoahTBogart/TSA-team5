@@ -52,8 +52,7 @@ body {
     background-size: cover;
 }
 
-.safety-info > .safety-top-text {
-    margin: 50%;
+.safety-info > .safety-text {
     padding: 8px 20px;
     background-color: #3c3347;
     color:  #d4d4d0;
