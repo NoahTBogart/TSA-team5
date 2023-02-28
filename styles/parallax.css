@@ -51,12 +51,3 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.safety-info > .safety-text {
-    padding: 8px 20px;
-    background-color: #3c3347;
-    color:  #d4d4d0;
-    width: 290px;
-    border-radius: 2px;
-    font-family: 'Space Mono', monospace;
-}

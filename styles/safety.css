@@ -1,3 +1,12 @@
+body{
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
 .parallax {
     background-image: url("../media/team5/astronaut-2021-08-26-15-29-33-utc.jpg");
     min-height: 500px;
@@ -52,7 +61,7 @@ nav{
   margin-bottom: 4px;
  }
 
- .square > .square-text-wrapper {
+ .square > .square-text-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,8 +69,7 @@ nav{
     padding: 42px;
  }
 
- .square > h1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+ .square > .square-text-wrapper a{
+    text-decoration: none;
+    color: var(--off-white);
  }
