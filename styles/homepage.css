@@ -44,13 +44,14 @@ body {
 .info-tab {
     padding: 100px;
     background-color: #161516;
-    margin: 50px;
+    margin: 0px 50px;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
 .info-tab > img {
     width: 200px;
+    margin: auto;
 }
 
 .info-tab > button {
@@ -73,8 +74,13 @@ body {
     color: var(--yellow);
 }
 
-.info-tab > a {
+.info-tab > button > a {
     text-decoration: none;
+    color: var(--off-white)
+}
+
+.info-tab > button > a:hover {
+    color: var(--purple-gray);
 }
 
 .launch-vid {
@@ -82,8 +88,18 @@ body {
     padding: 0px;
 }
 
-.launch-vid > h1 {
+.launch-info > p, .launch-info > p > a{
     text-align: center;
     padding: 80px;
     background-color:#161516;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: var(--off-white);
+    margin: 0;
+    font-size: 60px;
+}
+
+.launch-info > p > a:hover{
+    color:var(--yellow);
+    background-color:var(--desaturated-purple);
 }
