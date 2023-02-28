@@ -22,7 +22,7 @@
     position: relative;
     padding: 5px 0px;
     margin: 0px 41%;
-    bottom:90px;
+    top:50px;
     background-color: rgba(228, 233, 175, 0.301);
 }
  .parallax-middle h1{
@@ -43,7 +43,7 @@
 nav{
     padding: 200px;
     padding-top: 0px;
-    height: 500px;
+    height: 300px;
     margin: 0px;
     background-attachment: fixed;
     background-position: center;
