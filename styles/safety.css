@@ -26,6 +26,18 @@ body{
     background-size: cover;
     
 }
+
+nav{
+   padding: 200px;
+   padding-top: 0px;
+   height: 300px;
+   margin: 0px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
 .squares-wrapper {
     display: flex;
     justify-content: center;

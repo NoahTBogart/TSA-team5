@@ -39,3 +39,24 @@ body {
     font-family: 'Golos Text', sans-serif;
 
 }
+
+.safety-info {
+    background-image: url(../media/team5/8.jpg);
+    padding: 200px;
+    padding-top: 0px;
+    height: 800px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.safety-info > .safety-text {
+    padding: 8px 20px;
+    background-color: #3c3347;
+    color:  #d4d4d0;
+    width: 290px;
+    border-radius: 2px;
+    font-family: 'Space Mono', monospace;
+}
