@@ -14,12 +14,14 @@ body {
     justify-content: center;
     align-items: center;
     border: 10px double #161516;
+    border: 10px double #161516;
 
 }
 
 .about-text {
     color: var(--off-white);
     margin: 0px 10%;
+    text-align: center;
     text-align: center;
 }
 
