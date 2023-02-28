@@ -1,0 +1,48 @@
+.parallax {
+    background-image: url("../media/team5/astronaut-2021-08-26-15-29-33-utc.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax-two {
+    background-image: url("../media/team5/astronaut-2021-08-26-15-29-33-utc.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+ }
+
+ .squares-wrapper > .squares {
+    width: 1000px;
+ }
+
+ .squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+ }
+
+ .square > .img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px;
+ }
+
+ .square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+ }
