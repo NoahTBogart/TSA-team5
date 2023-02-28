@@ -20,6 +20,9 @@ nav{
 .sources-wrapper h1 {
   margin-bottom: 10px;
   color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sources-wrapper .list {
@@ -35,6 +38,8 @@ nav{
   z-index: 2;
   color: #f7f7f7;
   cursor: pointer;
+  display: flex;
+  justify-content: last baseline;
 }
 
 .sources-wrapper .item:not(:last-child) {
