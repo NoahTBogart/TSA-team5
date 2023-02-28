@@ -6,6 +6,9 @@ body {
     --purple-gray: #272529;
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
+
+    background-color: var(--purple-gray);
+    color:var(--off-white);
 }
 
 p, h2, h3, h4, h5, h6 {
