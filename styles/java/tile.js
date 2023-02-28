@@ -63,4 +63,4 @@
             left:x+'px'
         }).addClass("animate");
     })
-})(jQuery);
+});
