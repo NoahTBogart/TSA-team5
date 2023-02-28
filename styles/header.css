@@ -48,12 +48,12 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-  
+
   .form-control-dark {
     border-color: var(--bs-gray);
   }
   .form-control-dark:focus {
-    border-color: #fff;
+    border-color: #e61818;
     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
   }
   
