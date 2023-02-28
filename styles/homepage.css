@@ -14,12 +14,14 @@ body {
     justify-content: center;
     align-items: center;
     border: 10px double #161516;
+    border: 10px double #161516;
 
 }
 
 .about-text {
     color: var(--off-white);
     margin: 0px 10%;
+    text-align: center;
     text-align: center;
 }
 
@@ -36,7 +38,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    background-color: var(--desaturated-purple)
+    background-color: var(--desaturated-purple);
+    margin-bottom: 0px;
 
 }
 
@@ -70,4 +73,19 @@ body {
 .info-tab > button:active {
     background-color: var(--cobalt-blue);
     color: var(--yellow);
+}
+
+.info-tab > a {
+    text-decoration: none;
+}
+
+.launch-vid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.launch-vid > h1 {
+    text-align: center;
+    padding: 80px;
+    background-color:#161516;
 }
