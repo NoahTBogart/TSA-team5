@@ -53,7 +53,10 @@
 
 /*codepen*/
 
-  
+.list-box{
+  display: flex;
+  justify-content: center;
+}
 .list {
     width:1000px;
     height: 1300px;
@@ -62,7 +65,7 @@
     transition-duration: .5s;
     list-style-type: none;
     position:relative;
-    left: 22%;
+    justify-content: center;
 }
   
 .item {
