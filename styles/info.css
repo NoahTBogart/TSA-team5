@@ -19,16 +19,14 @@ nav{
     background-size: cover;
  }
 
- .hero-section {
-    background-image: url(../media/team5/6.jpg);
-    padding: 200px;
-    padding-top: 0px;
-    height: 400px;
-    margin: 0px;
+ .parallax {
+    background-image: url("../media/team5/female-astronaut-with-glass-helmet-2022-12-15-23-06-44-utc.jpg");
+    min-height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .info-header {
