@@ -46,54 +46,59 @@
             <!--Nav Section End-->
 
           <h1>Launch and Recovery</h1>
+          <h6>Click each one for more info</h6>
         </div>
         <div class="list-box">
         <ul class="list animate">
             <li class="item item1">
-                <p>Upcoming Launches: A list of upcoming launches with dates, times, and details about the missions. This section could also include countdown timers and links to live streams of the launches.
-                </p>
+                <div class="popup" onclick="myFunction()">Upcoming Launches: A list of upcoming launches with dates, times, and details about the missions. This section could also include countdown timers and links to live streams of the launches.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item2">
-                <p>Launch Vehicles: Information about the rockets and spacecraft used for launches, including their capabilities, specifications, and history.</p>
+                <div class="popup" onclick="myFunction()">Launch Vehicles: Information about the rockets and spacecraft used for launches, including their capabilities, specifications, and history.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item3">
-                <p>Launch Sites: Details about the launch sites where the rockets are launched from, including their locations, facilities, and history.
-                </p>
+                <div class="popup" onclick="myFunction()">Launch Sites: Details about the launch sites where the rockets are launched from, including their locations, facilities, and history.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item4">
-                <p>
-                    Launch Services: Information about the companies that provide launch services, including their capabilities, pricing, and customer reviews.
-                </p>
+                <div class="popup" onclick="myFunction()">Launch Services: Information about the companies that provide launch services, including their capabilities, pricing, and customer reviews.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item5">
-                <p>
-                    Recovery Operations: Details about the procedures and technologies used to recover spacecraft and payloads after they return to Earth, including splashdowns, landings, and parachute systems.
-                </p>
+                <div class="popup" onclick="myFunction()">Recovery Operations: Details about the procedures and technologies used to recover spacecraft and payloads after they return to Earth, including splashdowns, landings, and parachute systems.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item6">
-                <p>
-                    Recovery Vehicles: Information about the ships, aircraft, and other vehicles used for recovery operations, including their capabilities and history.
-                </p>
+                <div class="popup" onclick="myFunction()">Recovery Vehicles: Information about the ships, aircraft, and other vehicles used for recovery operations, including their capabilities and history.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item7">
-                <p>
-                    Launch and Recovery Safety: A section describing the safety protocols and measures taken during launch and recovery operations, including emergency procedures and contingency plans.
-                </p>
+                <div class="popup" onclick="myFunction()">Launch and Recovery Safety: A section describing the safety protocols and measures taken during launch and recovery operations, including emergency procedures and contingency plans.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item8">
-                <p>
-                    Launch and Recovery History: A timeline of significant events in space launch and recovery history, including milestones, achievements, and setbacks.  
-                </p>
+                <div class="popup" onclick="myFunction()">Launch and Recovery History: A timeline of significant events in space launch and recovery history, including milestones, achievements, and setbacks.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item9">
-                <p>
-                    FAQs: Frequently asked questions about launches and recoveries, including topics such as safety, pricing, and logistics.
-                </p>
+                <div class="popup" onclick="myFunction()">FAQs: Frequently asked questions about launches and recoveries, including topics such as safety, pricing, and logistics.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
             <li class="item item10">
-                <p>
-                    Contact Information: Contact information for the launch and recovery teams, including email addresses, phone numbers, and social media handles.
-                </p>
+                <div class="popup" onclick="myFunction()">Contact Information: Contact information for the launch and recovery teams, including email addresses, phone numbers, and social media handles.
+                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                </div>
             </li>
         </ul>
         </div>
@@ -121,5 +126,12 @@
               <p class="text-center text-muted">&copy; 2023 Better Horizons, Inc</p>
             </footer>
         </div>
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+        </script>
     </body> 
 </html>

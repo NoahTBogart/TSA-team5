@@ -1,3 +1,5 @@
+
+
 .parallax {
     background-image: url("../media/team5/man-posing-dressed-as-an-astronaut-in-skyrocket-el-2022-12-16-22-02-36-utc.jpg");
     min-height: 300px;
@@ -36,10 +38,17 @@
     background-color: rgba(228, 233, 175, 0.301);
 }
 
-.text-box{
-    height:300px;
-    background-color:var(--purple-gray);
+.popup {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+
+
+
+
 
 
 /*codepen*/
@@ -126,6 +135,7 @@
   }
 
   .popup {
+    color: var(--off-white);
     position: relative;
     display: inline-block;
     cursor: pointer;
