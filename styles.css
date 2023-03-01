@@ -6,8 +6,24 @@
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
 }
+
+nav{
+  padding: 200px;
+  padding-top: 0px;
+  height: 10px;
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body{
     padding: 1%;
+}
+
+h1{
+  display:flex;
+  justify-content: center;
 }
 
 table td a{
